@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+DkddAZ0Kr9vh9DAMqQym+OEz/+DoYvCErUyqTiFzAgs6cPjEuPJRmyMVM96TrRPKbfj7xLh4uQnG76dKpyt7A==",
+  "success": true,
+  "projectFilePath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/bogdanboicu/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

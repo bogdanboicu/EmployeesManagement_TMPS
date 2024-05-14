@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.API/EmployeesManagement.API.csproj": {}
+  },
+  "projects": {
+    "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.API/EmployeesManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.API/EmployeesManagement.API.csproj",
+        "projectName": "EmployeesManagement.API",
+        "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.API/EmployeesManagement.API.csproj",
+        "packagesPath": "/Users/bogdanboicu/.nuget/packages/",
+        "outputPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bogdanboicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/EmployeesManagement.Application.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/EmployeesManagement.Application.csproj"
+              },
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj"
+              },
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/EmployeesManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/EmployeesManagement.Application.csproj",
+        "projectName": "EmployeesManagement.Application",
+        "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/EmployeesManagement.Application.csproj",
+        "packagesPath": "/Users/bogdanboicu/.nuget/packages/",
+        "outputPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bogdanboicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj"
+              },
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj",
+        "projectName": "EmployeesManagement.Core",
+        "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj",
+        "packagesPath": "/Users/bogdanboicu/.nuget/packages/",
+        "outputPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bogdanboicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj",
+        "projectName": "EmployeesManagement.DataAccess",
+        "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/EmployeesManagement.DataAccess.csproj",
+        "packagesPath": "/Users/bogdanboicu/.nuget/packages/",
+        "outputPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bogdanboicu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj": {
+                "projectPath": "/Users/bogdanboicu/Desktop/Proiecte/EMS/EmployeesManagement.Core/EmployeesManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
